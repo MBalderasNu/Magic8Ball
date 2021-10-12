@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func askMeBtn(_ sender: Any) {
@@ -22,11 +21,8 @@ class ViewController: UIViewController {
         let magicBallimgs = [#imageLiteral(resourceName: "Magicballyes"), #imageLiteral(resourceName: "Magicballno"), #imageLiteral(resourceName: "Magicballasklater"), #imageLiteral(resourceName: "Magicballmaybe"), #imageLiteral(resourceName: "Magicballdont"), #imageLiteral(resourceName: "Magicballdoit")]
         
         magic8BallImg.image = magicBallimgs.randomElement()
-                             
         
     }
-    
-    
 
 }
 
